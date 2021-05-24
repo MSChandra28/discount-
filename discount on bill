@@ -1,0 +1,40 @@
+bill=int(input('enter total amount'))
+print('total bill',bill)
+#discount applied
+
+if (bill>=1000 and bill<=2000):
+         print('total bill is',bill)
+         print('10% discount is given')
+         c=(bill*10)/100
+         print('discount on the bill is',c)
+         print('total amount is',bill-c)
+elif (bill>=2000 and bill<=3000):
+         print('total bill is',bill)
+         print('20% discount is given')
+         c=(bill*20)/100
+         print('discount on the bill is',c)
+         print('total amount is',bill-c)
+elif (bill>=3000 and bill<=4000):
+         print('total bill is',bill)
+         print('30% discount is given')
+         c=(bill*30)/100
+         print('discount on the bill is',c)
+         print('total amount is',bill-c)
+elif (bill>=4000 and bill<=5000):
+         print('total bill is',bill)
+         print('40% discount is given')
+         c=(bill*40)/100
+         print('discount on bill is',c)
+         print('total amount is',bill-c)
+else:
+         print('total bill is less then 1000 so any discount is not applied',c)
+         
+         output:
+         enter total amount2500
+total bill 2500
+total bill is 2500
+20% discount is given
+discount on the bill is 500.0
+total amount is 2000.0
+
+               
